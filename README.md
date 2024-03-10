@@ -12,6 +12,8 @@ implemented in various programming languages.
 2. Structural
 3. Behavioral
 
+---
+
 #### Creational Design Patterns
 
 These patterns deals with "How objects are created". The common patterns are:
@@ -47,3 +49,5 @@ These patterns deals with multithreaded programming paradigm
 
 1. Read Write lock pattern
 2. Thread pool pattern
+
+---
