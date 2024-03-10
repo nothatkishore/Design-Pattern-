@@ -12,7 +12,7 @@ implemented in various programming languages.
 2. Structural
 3. Behavioral
 
-#### Creational Design patterns
+#### Creational Design Patterns
 
 These patterns deals with "How objects are created". The common patterns are:
 
@@ -20,3 +20,23 @@ These patterns deals with "How objects are created". The common patterns are:
 2. Factory
 3. Builder
 4. Prototype
+
+#### Structural Design Patterns
+
+These patterns simplfies the structure by identifying the relationship between objects. The common patterns are:
+
+1. Adapter
+2. Decorator
+3. Facade
+4. Proxy
+
+#### Behavorial Design Patterns
+
+These patterns deals with "How objects behave".
+
+1. Chain of responsibility
+2. Strategy
+3. Observer
+4. State
+5. Template
+6. Flyweight
