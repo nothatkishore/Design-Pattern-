@@ -43,11 +43,4 @@ These patterns deals with "How objects behave".
 5. Template
 6. Flyweight
 
-#### Concurrency Design Patterns
-
-These patterns deals with multithreaded programming paradigm
-
-1. Read Write lock pattern
-2. Thread pool pattern
-
 ---
