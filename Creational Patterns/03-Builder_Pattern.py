@@ -1,3 +1,7 @@
+'''
+This pattern is higly helpful, when you wanna create an highly configurable object like the one demonstrated below
+'''
+
 class House:
     def __init__(self, floors, door_type, roof_type) -> None:
         self.floors = floors
@@ -45,4 +49,3 @@ if __name__ == "__main__":
     
     Kishore = D1.build_single()
     K = Kishore.build()
-    print(type(K))
