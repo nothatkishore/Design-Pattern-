@@ -1,27 +1,24 @@
-from abc import ABCMeta, abstractstaticmethod
+class int_format:
+    
+    def __init__(self, number : int):
+        self.number = number
+    
+    def print_format(self):
+        return self.number
 
-class IA(metaclass = ABCMeta):
-    @abstractstaticmethod
-    def print_class():
-        '''This is a abstract method'''
-
-class A(IA):
+class str_format:
     @staticmethod
-    def print_class():
-        print("This is class A")
+    def print_format():
+        return "123"
 
-class IB(metaclass = ABCMeta):
-    @abstractstaticmethod
-    def print_value():
-        '''This is a abstract method'''
-
-class B(IB):
-    @staticmethod
-    def print_value():
-        print("This is class B")
+class int_to_str:
+    
+    def __init__(self, obj):
+        self.obj = obj
+    
+    def print_converted(self):
+        return str(self.obj.print_format())
 
 if __name__ == "__main__":
-    objectA = A()
-    A.print_class()
-    objectB = B()
-    B.print_value()
+   conv = int_to_str(int_format(154))
+   print(conv.print_converted() * 3)
