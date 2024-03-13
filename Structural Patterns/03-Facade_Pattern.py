@@ -3,6 +3,7 @@
 This can be used for IOT Applications
 
 '''
+
 class sensor(object):
     def sensor_on(self):
         print("The sensor is ON")
