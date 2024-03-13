@@ -4,10 +4,6 @@ This pattern can be used to create a copy of complex objects.
 
 '''
 
-
-
-
-
 from copy import deepcopy
 
 
@@ -17,7 +13,7 @@ class shape:
         self.type = type
     
     def clone(self):
-        return deepcopy(self)
+        return deepcopy(self)       #This is used to get new copy of a mentioned object
 
 class Circle(shape):
     

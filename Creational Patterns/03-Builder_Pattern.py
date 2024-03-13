@@ -2,14 +2,14 @@
 This pattern is higly helpful, when you wanna create an highly configurable object like the one demonstrated below
 '''
 
-class House:
+class House: #This is the main class with lots of parameters for configuration
     def __init__(self, floors, door_type, roof_type) -> None:
         self.floors = floors
         self.door_type = door_type
         self.roof_type = roof_type
         
 
-class HouseBuilder:
+class HouseBuilder: #This is a builder class which will build the object for the main class
     def __init__(self) -> None:
         self.floors = None
         self.door_type = None
@@ -31,7 +31,7 @@ class HouseBuilder:
         return House(self.floors, self.door_type, self.roof_type)
     
 
-class Director:
+class Director:     #This class will instruct builder class to make a predefined configuration
     
     def __init__(self, Builder) -> None:
         self.builder = Builder
@@ -46,6 +46,5 @@ class Director:
 if __name__ == "__main__":
     builder = HouseBuilder()
     D1 = Director(builder)
-    
     Kishore = D1.build_single()
     K = Kishore.build()
