@@ -1,3 +1,13 @@
+'''
+Use this pattern for any format conversion say from 
+XML to JSON
+or
+JSON to XML
+
+Like this.
+'''
+
+
 class int_format:
     
     def __init__(self, number : int):
